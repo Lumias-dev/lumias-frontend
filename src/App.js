@@ -16,7 +16,7 @@ function App() {
         <Navbar />
         <Header />
       </div>
-      <div className="background">
+      <div>
         <Popular />
         <Updates />
         <Trending />

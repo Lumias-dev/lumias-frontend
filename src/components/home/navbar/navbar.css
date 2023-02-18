@@ -1,43 +1,39 @@
 .navbar {
   display: flex;
+  flex-wrap: wrap;
   align-items: right;
-  padding: 0.66rem 3rem;
+  padding: 1.6rem 3rem;
 }
 
 .navbar-links {
-  flex: 1;
   display: flex;
   justify-self: flex-start;
   align-items: center;
 }
 
 .header-image {
-  flex: 0.5;
   padding: 0rem 0.5rem;
   display: flex;
   justify-content: left;
   align-items: left;
 }
 
-.navbar-title {
-  margin-right: 2rem;
-}
-
 .navbar-title h1 {
   color: white;
-  font: 50px;
 }
 
 .navbar-links-container {
   display: flex;
   flex-direction: row;
+  margin-left: 46rem;
+  flex-wrap: wrap;
+  align-items: right;
   justify-content: right;
-  margin-left: 39rem;
 }
 
 .navbar-links-container p {
   color: white;
-  margin: 0 1rem;
+  margin: 0rem 1rem;
   font-weight: 500;
   line-height: 25px;
   justify-content: right;

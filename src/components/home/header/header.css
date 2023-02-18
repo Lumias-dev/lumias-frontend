@@ -1,0 +1,15 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  padding: 1rem 2rem;
+}
+
+.header-image {
+  flex: 0.5;
+  display: flex;
+}
+
+.header-image img {
+  width: 140%;
+  height: 85%;
+}

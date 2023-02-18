@@ -1,13 +1,28 @@
 import React from "react";
-import { Navbar, Header } from "./components";
+import {
+  Navbar,
+  Header,
+  Popular,
+  Updates,
+  Trending,
+  Footnotes,
+} from "./components";
 import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <div>
+      <div className="background">
         <Navbar />
         <Header />
+      </div>
+      <div className="background">
+        <Popular />
+        <Updates />
+        <Trending />
+        <div className="footnote-bg">
+          <Footnotes />
+        </div>
       </div>
     </div>
   );

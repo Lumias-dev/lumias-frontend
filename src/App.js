@@ -16,13 +16,11 @@ function App() {
         <Navbar />
         <Header />
       </div>
-      <div>
-        <Popular />
-        <Updates />
-        <Trending />
-        <div className="footnote-bg">
-          <Footnotes />
-        </div>
+      <Popular />
+      <Updates />
+      <Trending />
+      <div className="footnote-bg">
+        <Footnotes />
       </div>
     </div>
   );

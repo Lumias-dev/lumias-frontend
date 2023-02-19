@@ -1,0 +1,39 @@
+.popular {
+  padding: 2rem 4rem;
+}
+
+.popular h1 {
+  background: #3e5bcf;
+  background: linear-gradient(to right, #3e5bcf 9%, #6e44cf 55%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  font-size: 45px;
+}
+
+.popular p {
+  color: rgb(175, 171, 171);
+  font-size: 20px;
+  margin: 10px 0px;
+  line-height: 26px;
+}
+
+hr {
+  display: flex;
+  height: 1px;
+  border: 0;
+  border-right: 500px solid #ccc;
+  padding: 0;
+
+  margin: 0;
+}
+
+.popular-container {
+  display: flex;
+  flex-direction: row;
+  padding: 36px 10px;
+}
+
+.popular-container img {
+  margin: 0px 60px;
+}

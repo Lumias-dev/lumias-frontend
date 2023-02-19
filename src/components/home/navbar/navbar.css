@@ -11,14 +11,14 @@
   align-items: center;
 }
 
-.header-image {
+.navbar-links-image {
   padding: 0rem 0.5rem;
   display: flex;
   justify-content: left;
   align-items: left;
 }
 
-.navbar-title h1 {
+.navbar-links-title h1 {
   color: white;
 }
 

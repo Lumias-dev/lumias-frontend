@@ -1,0 +1,29 @@
+.updates {
+  padding: 2rem 4rem;
+  margin: 5rem;
+  background: #29292a;
+}
+
+.updates h1 {
+  color: white;
+  font-size: 45px;
+}
+
+.updates p {
+  color: rgb(144, 144, 144);
+}
+
+.updates-explore {
+  display: flex;
+  justify-content: center;
+  border: solid;
+  border-color: white;
+}
+
+.updates-container {
+  display: flex;
+  padding: 2rem;
+}
+
+.updates-container img {
+}

@@ -1,0 +1,23 @@
+.trend {
+  padding: 3rem 7rem;
+}
+
+.trend h1 {
+  color: white;
+  font-size: 45px;
+}
+
+.trend p {
+  color: gray;
+  font-size: 20px;
+  margin: 10px 0px;
+  line-height: 26px;
+}
+
+.trend-container {
+  margin: 0;
+}
+
+.trend-container img {
+  margin: 30px 25px;
+}

@@ -2,9 +2,9 @@ import React from "react";
 import "./popular.css";
 import {
   lovers_nightmare,
-  planet_discover,
   star_hunter,
   survivor,
+  planet_discover,
 } from "./imports";
 
 const Popular = () => {
@@ -19,26 +19,16 @@ const Popular = () => {
         </div>
         <div className="popular-container">
           <div>
-            <img
-              src={lovers_nightmare}
-              alt="lovers nightmare"
-              width="200"
-              height="250"
-            />
+            <img src={lovers_nightmare} alt="lovers nightmare" />
           </div>
           <div>
-            <img
-              src={planet_discover}
-              alt="planet discover"
-              width="200"
-              height="250"
-            />
+            <img src={planet_discover} alt="planet discover" />
           </div>
           <div>
-            <img src={star_hunter} alt="star hunter" width="200" height="250" />
+            <img src={star_hunter} alt="star hunter" />
           </div>
           <div>
-            <img src={survivor} alt="survivor" width="200" height="250" />
+            <img src={survivor} alt="survivor" />
           </div>
         </div>
       </div>

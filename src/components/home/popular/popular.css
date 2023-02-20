@@ -1,9 +1,8 @@
 .popular {
-  padding: 2rem 4rem;
+  padding: 3rem 7rem;
 }
 
 .popular h1 {
-  background: #3e5bcf;
   background: linear-gradient(to right, #3e5bcf 9%, #6e44cf 55%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -18,22 +17,22 @@
   line-height: 26px;
 }
 
-hr {
+.hr {
   display: flex;
+  justify-content: center;
+  align-items: center;
   height: 1px;
   border: 0;
-  border-right: 500px solid #ccc;
-  padding: 0;
-
+  border-right: 400px solid #ccc;
   margin: 0;
 }
 
 .popular-container {
   display: flex;
   flex-direction: row;
-  padding: 36px 10px;
+  padding: 36px 0px;
 }
 
 .popular-container img {
-  margin: 0px 60px;
+  margin: 0px 0px;
 }

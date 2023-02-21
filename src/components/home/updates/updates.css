@@ -20,7 +20,7 @@
   justify-content: space-between;
   align-items: center;
   flex-direction: row;
-  margin-left: 40rem;
+
   /* border: 1px solid white;
   box-sizing: border-box;
   padding: 6px;
@@ -45,7 +45,15 @@
 
 .updates-container {
   display: flex;
+  gap: 80px;
 }
 
-.updates-container img {
+.updates-container p {
+  padding: 6px 0px;
+  font-size: 20px;
+  color: rgb(255, 249, 249);
+}
+
+.updates-container p2 {
+  color: rgb(101, 97, 97);
 }

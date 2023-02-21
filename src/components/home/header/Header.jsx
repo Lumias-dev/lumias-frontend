@@ -7,8 +7,10 @@ const Header = () => {
   return (
     <div className="header">
       <div className="header-image">
-        <img src={defi_planet} alt="blue-planet" />
-        <img src={gamefi_planet} alt="gamefi_planet" />
+        <img src={defi_planet} height="700" width="700" alt="blue-planet" />
+        <img src={gamefi_planet} height="800" width="740" alt="gamefi_planet" />
+        {/* <img src={defi_planet} alt="blue-planet" />
+        <img src={gamefi_planet} alt="gamefi_planet" /> */}
       </div>
     </div>
   );

@@ -12,11 +12,15 @@ const Updates = () => {
         <button type="">Explore</button>
       </div>
       <div className="updates-container">
-        <img src={updates1} alt="left image" />
-        <img src={updates2} alt="right image" />
-        <div className="updates-container-statement">
+        <div>
+          <img src={updates1} alt="left image" />
           <p>One chain friends can now share achievements</p>
+          <p2>Version 2.0.1</p2>
+        </div>
+        <div>
+          <img src={updates2} alt="right image" />
           <p>New staking pools for deifi nerds</p>
+          <p2>Version 2.0.2</p2>
         </div>
       </div>
     </div>

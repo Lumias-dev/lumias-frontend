@@ -2,6 +2,7 @@
   text-align: center;
   justify-content: center;
   padding: 2rem;
+  padding-bottom: 7rem;
 }
 
 .chart h1 {
@@ -10,28 +11,34 @@
 }
 
 .chart p {
-  color: gray;
+  padding: 15px 0px;
+  color: var(--color-text);
+
   font-size: 20px;
 }
 
 .chart-container {
-  color: white;
+  color: rgb(200, 200, 200);
   font-size: 25px;
-  padding: 2rem 0rem;
+  padding: 17px 0px;
 }
 
 .chart-container p1 {
-  border: 1px solid white;
+  margin: 30px;
+  border: 1px solid rgb(199, 199, 199);
   box-sizing: border-box;
-  padding: 6px;
+  border-radius: 10px;
+  padding: 6px 30px;
   width: 120px;
   height: 40px;
 }
 
 .chart-container p2 {
-  border: 1px solid white;
+  margin: 30px;
+  border: 1px solid rgb(199, 199, 199);
   box-sizing: border-box;
-  padding: 6px;
+  border-radius: 10px;
+  padding: 6px 30px;
   width: 120px;
   height: 40px;
 }

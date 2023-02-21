@@ -8,8 +8,8 @@
 }
 
 .trend p {
-  color: rgb(164, 164, 164);
-  font-size: 25px;
+  color: var(--color-text);
+  font-size: 20px;
   margin: 8px 0px;
   line-height: 26px;
 }

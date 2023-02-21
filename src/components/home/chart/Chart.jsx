@@ -4,7 +4,9 @@ import "./chart.css";
 const Chart = () => {
   return (
     <div className="chart">
-      <h1>Are you ready for a new adventure?</h1>
+      <h1>
+        Are you ready for a new <br /> adventure?
+      </h1>
       <p>
         You are now able to convert USD to LUM, currency used for in-game
         purchaces, APY earning

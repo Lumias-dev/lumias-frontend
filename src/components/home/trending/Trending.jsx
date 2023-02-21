@@ -12,13 +12,30 @@ const Trend = () => {
     <div className="trend">
       <h1>Trending Pools</h1>
       <p>
-        Earn Interest on your in-game tokens APY, interest is over one year piod
+        Earn Interest on your in-game tokens APY, interest is over one year
+        period
       </p>
       <div className="trend-container">
-        <img src={pool_nemesis} alt="pool_nemesis" />
-        <img src={pool_deep} alt="pool_deep" />
-        <img src={pool_survivor} alt="pool_survivor" />
-        <img src={pool_magical} alt="pool_magical" />
+        <div>
+          <img src={pool_nemesis} alt="pool_nemesis" />
+          <p>Nemesis</p>
+          <p2>13.2% APY</p2>
+        </div>
+        <div>
+          <img src={pool_deep} alt="pool_deep" />
+          <p>Deep Pool</p>
+          <p2>19% APY</p2>
+        </div>
+        <div>
+          <img src={pool_survivor} alt="pool_survivor" />
+          <p>Survivor's</p>
+          <p2>8% APY</p2>
+        </div>
+        <div>
+          <img src={pool_magical} alt="pool_magical" />
+          <p>Magical Lake</p>
+          <p2>11.2% APY</p2>
+        </div>
       </div>
     </div>
   );

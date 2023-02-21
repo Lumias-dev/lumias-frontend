@@ -8,16 +8,31 @@
 }
 
 .trend p {
-  color: gray;
-  font-size: 20px;
-  margin: 10px 0px;
+  color: rgb(164, 164, 164);
+  font-size: 25px;
+  margin: 8px 0px;
   line-height: 26px;
 }
 
 .trend-container {
-  margin: 0;
+  padding: 2rem 0rem;
+  display: inline-grid;
+  grid-template-columns: repeat(2, [col-start] 1fr);
+  grid-gap: 14px;
+}
+
+.trend-container p {
+  color: white;
+  font-size: 30px;
+  font-weight: 200;
+}
+
+.trend-container p2 {
+  color: gray;
+  font-size: 17px;
 }
 
 .trend-container img {
-  margin: 30px 25px;
+  display: flex;
+  margin-right: 90px;
 }

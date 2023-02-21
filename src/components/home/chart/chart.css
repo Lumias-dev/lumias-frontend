@@ -1,0 +1,37 @@
+.chart {
+  text-align: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.chart h1 {
+  color: white;
+  font-size: 45px;
+}
+
+.chart p {
+  color: gray;
+  font-size: 20px;
+}
+
+.chart-container {
+  color: white;
+  font-size: 25px;
+  padding: 2rem 0rem;
+}
+
+.chart-container p1 {
+  border: 1px solid white;
+  box-sizing: border-box;
+  padding: 6px;
+  width: 120px;
+  height: 40px;
+}
+
+.chart-container p2 {
+  border: 1px solid white;
+  box-sizing: border-box;
+  padding: 6px;
+  width: 120px;
+  height: 40px;
+}

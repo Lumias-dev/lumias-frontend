@@ -4,6 +4,7 @@ import {
   Header,
   Popular,
   Updates,
+  Chart,
   Trending,
   Footnotes,
 } from "./components";
@@ -18,6 +19,7 @@ function App() {
       </div>
       <Popular />
       <Updates />
+      <Chart />
       <Trending />
       <div className="footnote-bg">
         <Footnotes />

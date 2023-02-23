@@ -10,7 +10,10 @@ import {
 const Trend = () => {
   return (
     <div className="trend">
-      <h1>Trending Pools</h1>
+      <div className="trend-header">
+        <h1>Trending Pools</h1>
+        <button type="">Explore</button>
+      </div>
       <p>
         Earn Interest on your in-game tokens APY, interest is over one year
         period

@@ -6,9 +6,10 @@ import {
   Updates,
   Chart,
   Trending,
-  Footnotes,
+  Footer,
 } from "./components";
 import "./App.css";
+import "./fonts/PoppinsMedium.ttf";
 
 function App() {
   return (
@@ -21,8 +22,8 @@ function App() {
       <Updates />
       <Chart />
       <Trending />
-      <div className="footnote-bg">
-        <Footnotes />
+      <div className="footer-bg">
+        <Footer />
       </div>
     </div>
   );

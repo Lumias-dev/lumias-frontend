@@ -1,0 +1,33 @@
+.footer {
+  display: flex;
+  padding: 4rem 6rem;
+}
+
+/* edit these */
+.footer-info {
+  display: flex;
+}
+
+.footer-info ul {
+  margin: 0rem 2rem;
+  justify-content: flex-end;
+}
+
+.footer-info li {
+  color: var(--color-text);
+}
+
+.footer-end {
+}
+
+.vr {
+  justify-content: center;
+  text-align: center;
+  border-left: 2px solid rgb(95, 95, 95);
+  height: 200px;
+}
+
+.footer-newsletter {
+  text-align: left;
+  justify-content: center;
+}

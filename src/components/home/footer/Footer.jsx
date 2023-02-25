@@ -9,13 +9,11 @@ const Footer = () => {
           General
           <li>Home</li>
           <li>About Us</li>
-        </ul>
-        <ul>
-          Information
           <li>Docs</li>
           <li>News</li>
           <li>FAQ</li>
         </ul>
+
         <ul>
           Legal
           <li>Privacy Policy</li>
@@ -31,10 +29,10 @@ const Footer = () => {
           <li>Discord help</li>
         </ul>
       </div>
-      <div className="footer-end">
+      {/* <div className="footer-end">
         <p>Lumias</p>
         <p>All rights reserved, Lumias 2023</p>
-      </div>
+      </div> */}
       <div className="vr"></div>
       <div className="footer-newsletter">
         <h1>Newsletter!</h1>

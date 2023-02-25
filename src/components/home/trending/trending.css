@@ -17,7 +17,7 @@
 }
 
 .trend-header button {
-  background: #000000;
+  background: #1a0c79;
   border-radius: 13px;
   color: #ffffff;
   font-weight: bold;
@@ -59,4 +59,9 @@
 .trend-container img {
   display: flex;
   margin-right: 90px;
+}
+
+.trend-header button:hover {
+  background: white;
+  color: #1a0c79;
 }

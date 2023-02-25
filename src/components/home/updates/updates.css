@@ -1,7 +1,27 @@
 .updates {
   padding: 2rem 4rem;
   margin: 5rem;
-  background: #29292a;
+  background: -moz-linear-gradient(
+    145deg,
+    #200a49 0%,
+    #41296b 50%,
+    #8469be 100%
+  );
+  background: -webkit-linear-gradient(
+    145deg,
+    #200a49 0%,
+    #41296b 50%,
+    #8469be 100%
+  );
+  background: -o-linear-gradient(145deg, #200a49 0%, #41296b 50%, #8469be 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8469BE', endColorstr='#200A49', GradientType=1 );
+  background: -ms-linear-gradient(
+    145deg,
+    #200a49 0%,
+    #41296b 50%,
+    #8469be 100%
+  );
+  background: linear-gradient(145deg, #200a49 0%, #41296b 50%, #8469be 100%);
   border-radius: 25px;
 }
 
@@ -20,7 +40,7 @@
 }
 
 .updates-header button {
-  background: #000000;
+  background: #1a0c79;
   border-radius: 13px;
   color: #ffffff;
   font-weight: bold;
@@ -35,7 +55,7 @@
 }
 
 .updates p {
-  color: rgb(144, 144, 144);
+  color: var(--color-text);
 }
 
 .updates-container {
@@ -51,5 +71,10 @@
 }
 
 .updates-container p2 {
-  color: rgb(101, 97, 97);
+  color: rgb(176, 168, 168);
+}
+
+.updates-header button:hover {
+  background: white;
+  color: #1a0c79;
 }

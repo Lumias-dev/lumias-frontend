@@ -2,6 +2,7 @@ import React from "react";
 import "./updates.css";
 import updates1 from "../../../assets/updates1.svg";
 import updates2 from "../../../assets/updates2.svg";
+import bluemoon from "../../../assets/bluemoon.svg";
 
 const Updates = () => {
   return (
@@ -21,6 +22,9 @@ const Updates = () => {
           <img src={updates2} alt="right image" />
           <p>New staking pools for deifi nerds</p>
           <p2>Version 2.0.2</p2>
+        </div>
+        <div className="updates-bluemoon">
+          <img src={bluemoon} alt="blue planet" />
         </div>
       </div>
     </div>

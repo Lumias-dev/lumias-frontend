@@ -1,27 +1,23 @@
 .updates {
   padding: 2rem 4rem;
   margin: 5rem;
-  background: -moz-linear-gradient(
-    145deg,
-    #200a49 0%,
-    #41296b 50%,
-    #8469be 100%
-  );
-  background: -webkit-linear-gradient(
-    145deg,
-    #200a49 0%,
-    #41296b 50%,
-    #8469be 100%
-  );
-  background: -o-linear-gradient(145deg, #200a49 0%, #41296b 50%, #8469be 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8469BE', endColorstr='#200A49', GradientType=1 );
-  background: -ms-linear-gradient(
-    145deg,
-    #200a49 0%,
-    #41296b 50%,
-    #8469be 100%
-  );
-  background: linear-gradient(145deg, #200a49 0%, #41296b 50%, #8469be 100%);
+  background: -moz-linear-gradient(26deg, #3f557f 18%, #081246 100%);
+
+  /* safari 5.1+,chrome 10+ */
+  background: -webkit-linear-gradient(26deg, #3f557f 18%, #081246 100%);
+
+  /* opera 11.10+ */
+  background: -o-linear-gradient(26deg, #3f557f 18%, #081246 100%);
+
+  /* ie 6-9 */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3F557F', endColorstr='#081246', GradientType=1 );
+
+  /* ie 10+ */
+  background: -ms-linear-gradient(26deg, #3f557f 18%, #081246 100%);
+
+  /* global 94%+ browsers support */
+  background: linear-gradient(26deg, #3f557f 18%, #081246 100%);
+
   border-radius: 25px;
 }
 
@@ -40,7 +36,7 @@
 }
 
 .updates-header button {
-  background: #1a0c79;
+  background: #0a3281;
   border-radius: 13px;
   color: #ffffff;
   font-weight: bold;
@@ -77,4 +73,12 @@
 .updates-header button:hover {
   background: white;
   color: #1a0c79;
+}
+
+.updates-bluemoon {
+  position: relative;
+  margin-bottom: -500px;
+  right: 340px;
+  bottom: 460px;
+  z-index: -1;
 }

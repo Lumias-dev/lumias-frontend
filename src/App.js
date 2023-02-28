@@ -1,27 +1,35 @@
 import React from "react";
-import {
-  Navbar,
-  Header,
-  Popular,
-  Updates,
-  Chart,
-  Trending,
-  Footer,
-} from "./components";
+import { Navbar, About, Docs, News, Footer } from "./components";
 import "./App.css";
 import "./fonts/PoppinsMedium.ttf";
+import Home from "./Home";
 
 function App() {
+  let component;
+  switch (window.location.pathname) {
+    case "/":
+      component = <Home />;
+      break;
+    case "/home":
+      component = <Home />;
+      break;
+    case "/news":
+      component = <News />;
+      break;
+    case "/docs":
+      component = <Docs />;
+      break;
+    case "/about":
+      component = <About />;
+      break;
+  }
+
   return (
     <div className="App">
       <div className="background">
         <Navbar />
-        <Header />
+        {component}
       </div>
-      <Popular />
-      <Updates />
-      <Chart />
-      <Trending />
       <div className="footer-bg">
         <Footer />
       </div>

@@ -5,3 +5,6 @@ export { default as Updates } from "./home/updates/Updates";
 export { default as Chart } from "./home/chart/Chart";
 export { default as Trending } from "./home/trending/Trending";
 export { default as Footer } from "./home/footer/Footer";
+export { default as About } from "./pages/About";
+export { default as Docs } from "./pages/Docs";
+export { default as News } from "./pages/News";

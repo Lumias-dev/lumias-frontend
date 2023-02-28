@@ -6,11 +6,10 @@ import mainlogo32x32 from "../../../assets/mainlogo32x32.png";
 
 const Menu = () => (
   <>
-    {/* create router */}
-    <p>HOME</p>
-    <p>NEWS</p>
-    <p>DOCS</p>
-    <p>ABOUT US</p>
+    <a href="/home">HOME</a>
+    <a href="/news">NEWS</a>
+    <a href="docs">DOCS</a>
+    <a href="/about">ABOUT US</a>
   </>
 );
 
@@ -18,11 +17,8 @@ const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
   return (
     <div className="navbar">
-      <div className="navbar-links">
-        <div className="navbar-links-image">
-          {/* <img src={mainlogo} alt="mainlogo" /> */}
-          <img src={mainlogo32x32} alt="mainlogo" />
-        </div>
+      <div className="navbar-image">
+        <img src={mainlogo32x32} alt="mainlogo" />
       </div>
       <div className="navbar-title">
         <h1>LUMIAS</h1>
@@ -45,7 +41,7 @@ const Navbar = () => {
           />
         )}
         {toggleMenu && (
-          <div className="navbar-links-menu-container scale-up-center">
+          <div className="navbar-menu-container scale-up-center">
             <Menu />
           </div>
         )}

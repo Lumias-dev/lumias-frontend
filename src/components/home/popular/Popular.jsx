@@ -14,7 +14,7 @@ const Popular = () => {
         <h1>
           Popular games right now <br /> on the market
         </h1>
-        <hr className="hr" />
+        <hr className="popular-hr" />
         <div>
           <p>Enjoy some of the best games we got to offer</p>
           <p>The lastest and best games on web3</p>

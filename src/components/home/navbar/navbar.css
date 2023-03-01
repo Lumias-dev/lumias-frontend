@@ -16,7 +16,7 @@
 
 .navbar-container {
   display: flex;
-  margin-left: 44rem;
+  margin-left: 750px;
 }
 
 .navbar-container a {
@@ -31,6 +31,11 @@
   border-right: thin solid #bcbaba9f;
   position: relative;
   padding-right: 28px;
+}
+
+.navbar-menu {
+  position: relative;
+  display: none;
 }
 
 .navbar-menu svg {

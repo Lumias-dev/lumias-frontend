@@ -14,7 +14,6 @@ const About = () => {
         </p>
       </div>
       <div className="about-images">
-        <p>switch these with the glowy ones</p>
         <img src={planetbluebig} className="blue" />
         <img src={planetredbig} className="red" />
       </div>
@@ -38,6 +37,42 @@ const About = () => {
           libero quae sint fuga itaque consectetur iste, neque excepturi iure
           distinctio natus atque architecto perspiciatis amet eaque expedita, et
           numquam. Similique.
+        </p>
+      </div>
+      <div className="about-roadmap">
+        <p>Developers</p>
+        <hr className="about-roadmap-hr" />
+        <p>Lumias</p>
+        <hr className="about-roadmap-hr" />
+        <p>Marketplace / Game</p>
+      </div>
+      <div className="about-description">
+        <h1>Description</h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor in
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+          culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum
+          dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+          incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+          commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+          velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+          occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+          mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur
+          adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+          magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+          ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+          irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+          fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+          sunt in culpa qui officia deserunt mollit anim id est laborum. Duis
+          aute irure dolor in reprehenderit in voluptate velit esse cillum
+          dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+          proident, sunt in culpa qui officia deserunt mollit anim id est
+          laborum.mollit anim id est laborum.mollit anim id est laborum.
         </p>
       </div>
     </div>

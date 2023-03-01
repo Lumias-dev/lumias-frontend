@@ -11,7 +11,14 @@
 }
 
 .about-header h1 {
-  font-size: 70px;
+  font-size: 90px;
+  font-weight: 400;
+}
+
+.about-header p {
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 30px;
 }
 
 .about-images {
@@ -27,8 +34,11 @@
 .red {
   display: block;
   position: relative;
-  bottom: 830px;
+  bottom: 860px;
   left: 900px;
+  background-blend-mode: screen;
+  mix-blend-mode: screen;
+  transform: rotate(-43.35deg);
 }
 
 .about-details {
@@ -45,8 +55,54 @@
 }
 .about-details p {
   font-size: 20px;
+  font-weight: 300;
+  line-height: 30px;
 }
 
 .about-details p:nth-child(2) {
   margin-bottom: 150px;
+}
+
+.about-roadmap {
+  padding-top: 130px;
+  display: flex;
+  color: white;
+}
+
+.about-roadmap p {
+  text-align: center;
+  border: 1px solid rgb(199, 199, 199);
+  box-sizing: border-box;
+  border-radius: 3px;
+  padding: 6px 30px;
+  font-size: 30px;
+  margin-bottom: 230px;
+}
+
+.about-roadmap-hr {
+  justify-content: center;
+  align-items: center;
+  height: 2px;
+  border-right: 300px solid #ccc;
+}
+
+.about-description {
+  color: var(--color-text);
+  margin: 15px;
+  padding: 10px 50px;
+  border-left: solid 3px white;
+  max-width: 1100px;
+  margin-bottom: 90px;
+}
+
+.about-description h1 {
+  color: white;
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+.about-description p {
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 30px;
 }

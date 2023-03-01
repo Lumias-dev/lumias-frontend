@@ -25,6 +25,7 @@ a {
 
 .background {
   background: url("assets/bcgg.svg");
+  background-repeat: no-repeat;
 }
 
 .footer-bg {

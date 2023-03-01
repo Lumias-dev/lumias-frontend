@@ -1,0 +1,52 @@
+.about {
+  padding: 2rem 4rem;
+  background-color: rgb(18, 18, 18);
+}
+
+.about-header {
+  color: white;
+  text-align: center;
+  margin-top: 200px;
+  /* margin-bottom: 500px; */
+}
+
+.about-header h1 {
+  font-size: 70px;
+}
+
+.about-images {
+  margin-bottom: -800px;
+}
+
+.blue {
+  position: relative;
+  bottom: 500px;
+  right: 400px;
+}
+
+.red {
+  display: block;
+  position: relative;
+  bottom: 830px;
+  left: 900px;
+}
+
+.about-details {
+  color: var(--color-text);
+  margin: 15px;
+  padding: 10px 50px;
+  border-left: solid 3px white;
+  max-width: 1100px;
+}
+.about-details h1 {
+  color: white;
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+.about-details p {
+  font-size: 20px;
+}
+
+.about-details p:nth-child(2) {
+  margin-bottom: 150px;
+}

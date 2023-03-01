@@ -7,13 +7,11 @@ const Footer = () => {
       <div className="footer-info">
         <ul>
           General
-          <li>Home</li>
-          <li>About Us</li>
-          <li>Docs</li>
-          <li>News</li>
-          <li>FAQ</li>
+          <a href="/home">Home</a>
+          <a href="/about">About Us</a>
+          <a href="docs">Docs</a>
+          <a href="/news">News</a>
         </ul>
-
         <ul>
           Legal
           <li>Privacy Policy</li>

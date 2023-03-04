@@ -3,7 +3,7 @@
   padding: 0;
   margin: 0;
   scroll-behavior: smooth;
-  font-family: "Medium";
+  font-family: "Medium", "Regular", Arial, Helvetica, sans-serif;
 }
 
 body {

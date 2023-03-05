@@ -1,5 +1,6 @@
 .about {
   padding: 2rem 4rem;
+  overflow-x: hidden;
 }
 
 .about-header {
@@ -22,7 +23,6 @@
 
 .about-images {
   margin-bottom: -800px;
-  display: block;
 }
 
 .blue {
@@ -35,8 +35,7 @@
   position: relative;
   bottom: 860px;
   left: 900px;
-  background-blend-mode: screen;
-  mix-blend-mode: screen;
+
   transform: rotate(-43.35deg);
 }
 

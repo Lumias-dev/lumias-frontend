@@ -17,7 +17,7 @@ const Popular = () => {
         <hr className="popular-hr" />
         <div>
           <p>Enjoy some of the best games we got to offer</p>
-          <p>The lastest and best games on web3</p>
+          <p>The latest and best games on web3</p>
         </div>
         <div className="popular-container">
           <div>

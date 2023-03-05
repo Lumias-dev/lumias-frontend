@@ -1,5 +1,6 @@
 .docs {
   padding: 2rem 4rem;
+  overflow-x: hidden;
 }
 
 .docs-header {
@@ -9,7 +10,7 @@
 }
 
 .docs-header h1 {
-  font-size: 80px;
+  font-size: 90px;
   font-weight: 400;
 }
 
@@ -21,4 +22,67 @@
 
 .docs-images {
   margin-bottom: -800px;
+}
+
+.docs-details {
+  color: var(--color-text);
+  margin: 15px;
+  padding: 10px 50px;
+  border-left: solid 3px white;
+  max-width: 1100px;
+}
+
+.docs-details h1 {
+  color: white;
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+.docs-details p {
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 30px;
+}
+
+.docs-details p:nth-child(2) {
+  margin-bottom: 150px;
+}
+
+.docs-legal {
+  color: var(--color-text);
+  margin: 130px 15px;
+  padding: 10px 50px;
+}
+
+.docs-legal h1 {
+  color: white;
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+.docs-legal p {
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 30px;
+}
+
+.docs-description {
+  color: var(--color-text);
+  margin: 15px;
+  padding: 10px 50px;
+  border-left: solid 3px white;
+  max-width: 1100px;
+  margin-bottom: 90px;
+}
+
+.docs-description h1 {
+  color: white;
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+.docs-description p {
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 30px;
 }

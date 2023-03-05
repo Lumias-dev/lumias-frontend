@@ -1,14 +1,23 @@
 .header {
-  display: flex;
-  flex-direction: row;
+  overflow-x: hidden;
 }
 
 .header-image {
-  flex: 0.5;
   display: flex;
 }
 
-/* .header-image img {
-  width: 140%;
-  height: 85%;
-} */
+.gamefi-planet {
+  position: relative;
+  bottom: 190px;
+  right: 60px;
+  z-index: 10;
+  /* transform: translate(-5%, -20%); */
+}
+
+.defi-planet {
+  position: relative;
+  top: 100px;
+  right: 230px;
+  z-index: 10;
+  /* transform: translate(-30%, 20%); */
+}

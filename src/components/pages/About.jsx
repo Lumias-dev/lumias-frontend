@@ -44,7 +44,7 @@ const About = () => {
         <hr className="about-roadmap-hr" />
         <p>Lumias</p>
         <hr className="about-roadmap-hr" />
-        <p>Marketplace / Game</p>
+        <p>Marketplace</p>
       </div>
       <div className="about-description">
         <h1>Description</h1>

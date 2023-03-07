@@ -20,10 +20,10 @@ const Docs = () => {
         <h1>Litepaper</h1>
         <p>You can download litepaper directly</p>
       </div>
-      <div className="docs-legal">
+      {/* <div className="docs-legal">
         <h1>Legal</h1>
         <p>You can download legal directly</p>
-      </div>
+      </div> */}
       <div className="docs-description">
         <h1>Description</h1>
         <p>

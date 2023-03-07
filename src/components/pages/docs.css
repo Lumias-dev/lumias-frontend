@@ -68,7 +68,8 @@
 
 .docs-description {
   color: var(--color-text);
-  margin: 15px;
+  margin: 270px 15px;
+  /* right one after legal comes back margin: 15px; */
   padding: 10px 50px;
   border-left: solid 3px white;
   max-width: 1100px;

@@ -6,6 +6,7 @@ import galaxydust from "../../../assets/galaxydust.svg";
 import galaxydust2 from "../../../assets/galaxydust2.svg";
 import ast from "../../../assets/ast.svg";
 import aststring from "../../../assets/aststring.svg";
+import defimoon from "../../../assets/defimoon.svg";
 
 const Header = () => {
   return (
@@ -23,9 +24,11 @@ const Header = () => {
           width="800"
           className="defi-planet"
         />
-        <img src={aststring} className="aststring" />
-        <img src={ast} className="ast" />
+        <img src={galaxydust} className="galaxydust" />
         <img src={galaxydust2} className="galaxydust2" />
+        <img src={aststring} className="aststring" />
+        <img src={defimoon} className="defimoon" />
+        <img src={ast} className="ast" />
       </div>
     </div>
   );

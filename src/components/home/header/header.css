@@ -10,23 +10,31 @@
   position: relative;
   bottom: 190px;
   right: 60px;
-  z-index: 6;
+  z-index: 3;
   /* transform: translate(-5%, -20%); */
 }
 
 .defi-planet {
   position: relative;
-  top: 100px;
-  right: 230px;
-  z-index: 6;
+  top: 97px;
+  right: 220px;
+  z-index: 3;
+  cursor: pointer;
   /* transform: translate(-30%, 20%); */
 }
 
-.ast {
-  position: relative;
-  bottom: 270px;
-  left: 170px;
-  z-index: 1;
+.galaxydust {
+  position: absolute;
+  z-index: 2;
+  top: 1px;
+  width: 100%;
+}
+
+.galaxydust2 {
+  position: absolute;
+  bottom: 229px;
+  left: 1012px;
+  z-index: 2;
 }
 
 .aststring {
@@ -34,12 +42,20 @@
   right: 1600px;
   bottom: 200px;
   width: 50%;
-  z-index: 1;
+  z-index: 3;
 }
 
-.galaxydust2 {
+.defimoon {
+  position: absolute;
+  z-index: 2;
+  left: 890px;
+  top: 220px;
+  transform: rotate(7.6deg);
+}
+
+.ast {
   position: relative;
-  bottom: 100px;
-  left: 35px;
-  z-index: 8;
+  bottom: 390px;
+  right: 1330px;
+  z-index: 2;
 }

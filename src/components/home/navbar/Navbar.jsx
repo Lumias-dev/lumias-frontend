@@ -8,7 +8,7 @@ const Menu = () => (
   <>
     <a href="/home">HOME</a>
     <a href="/news">NEWS</a>
-    <a href="docs">DOCS</a>
+    <a href="/docs">DOCS</a>
     <a href="/about">ABOUT US</a>
   </>
 );

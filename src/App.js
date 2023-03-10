@@ -10,9 +10,6 @@ function App() {
     case "/":
       component = <Home />;
       break;
-    case "/home":
-      component = <Home />;
-      break;
     case "/news":
       component = <News />;
       break;

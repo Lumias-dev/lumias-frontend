@@ -6,7 +6,7 @@ import mainlogo32x32 from "../../../assets/mainlogo32x32.png";
 
 const Menu = () => (
   <>
-    <a href="/home">HOME</a>
+    <a href="/">HOME</a>
     <a href="/news">NEWS</a>
     <a href="/docs">DOCS</a>
     <a href="/about">ABOUT US</a>

@@ -11,6 +11,7 @@
   bottom: 190px;
   right: 60px;
   z-index: 3;
+  width: 67%;
   /* transform: translate(-5%, -20%); */
 }
 
@@ -19,7 +20,7 @@
   top: 97px;
   right: 220px;
   z-index: 3;
-  cursor: pointer;
+  width: 67%;
   /* transform: translate(-30%, 20%); */
 }
 
@@ -32,9 +33,9 @@
 
 .galaxydust2 {
   position: absolute;
-  bottom: 229px;
-  left: 1012px;
+
   z-index: 2;
+  width: 100%;
 }
 
 .aststring {
@@ -51,6 +52,7 @@
   left: 890px;
   top: 220px;
   transform: rotate(7.6deg);
+  width: 13%;
 }
 
 .ast {
@@ -58,4 +60,5 @@
   bottom: 390px;
   right: 1330px;
   z-index: 2;
+  width: 100%;
 }

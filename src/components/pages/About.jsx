@@ -14,8 +14,8 @@ const About = () => {
         </p>
       </div>
       <div className="about-images">
-        <img src={planetbluebig} className="blue" />
-        <img src={planetredbig} className="red" />
+        <img src={planetbluebig} height="800" width="800" className="blue" />
+        <img src={planetredbig} height="800" width="800" className="red" />
       </div>
       <div className="about-details">
         <h1>Mission</h1>

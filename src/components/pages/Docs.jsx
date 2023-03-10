@@ -11,8 +11,8 @@ const Docs = () => {
         <p>All the documentation right here</p>
       </div>
       <div className="docs-images">
-        <img src={planetbluebig} className="blue" />
-        <img src={planetredbig} className="red" />
+        <img src={planetbluebig} height="800" width="800" className="blue" />
+        <img src={planetredbig} height="800" width="800" className="red" />
       </div>
       <div className="docs-details">
         <h1>Whitepaper</h1>

@@ -26,6 +26,7 @@
   border: 0;
   border-right: 650px solid #ccc;
   margin: 0;
+  width: 100%;
 }
 
 .popular-container {
@@ -38,6 +39,7 @@
 
 .popular-container img {
   margin: 0px 0px;
+  width: 100%;
 }
 
 .popular-container p {

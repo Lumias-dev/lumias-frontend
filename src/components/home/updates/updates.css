@@ -2,20 +2,10 @@
   padding: 2rem 4rem;
   margin: 5rem;
   background: -moz-linear-gradient(26deg, #3f557f 18%, #081246 100%);
-
-  /* safari 5.1+,chrome 10+ */
   background: -webkit-linear-gradient(26deg, #3f557f 18%, #081246 100%);
-
-  /* opera 11.10+ */
   background: -o-linear-gradient(26deg, #3f557f 18%, #081246 100%);
-
-  /* ie 6-9 */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3F557F', endColorstr='#081246', GradientType=1 );
-
-  /* ie 10+ */
   background: -ms-linear-gradient(26deg, #3f557f 18%, #081246 100%);
-
-  /* global 94%+ browsers support */
   background: linear-gradient(26deg, #3f557f 18%, #081246 100%);
 
   border-radius: 25px;
@@ -57,7 +47,10 @@
 .updates-container {
   padding-top: 55px;
   display: flex;
-  gap: 80px;
+}
+
+.updates-container img {
+  width: 100%;
 }
 
 .updates-container p {
@@ -78,7 +71,11 @@
 .updates-bluemoon {
   position: relative;
   margin-bottom: -500px;
-  right: 340px;
+  left: 150px;
   bottom: 460px;
   z-index: -1;
+}
+
+.updates-bluemoon img {
+  width: 100%;
 }

@@ -29,16 +29,18 @@
 .blue {
   position: absolute;
   bottom: 11%;
-  left: -24%;
+  left: -48%;
   z-index: 2;
+  width: 100%;
 }
 
 .red {
   position: absolute;
   top: 47%;
-  left: 70%;
+  left: 40%;
   z-index: 2;
   transform: rotate(-43.35deg);
+  width: 100%;
 }
 
 .about-details {

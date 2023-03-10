@@ -17,8 +17,24 @@ const Docs = () => {
       <div className="docs-details">
         <h1>Whitepaper</h1>
         <p>You can download whitepaper directly</p>
+        <button className="docs-details-whitepaper">
+          <a
+            href="https://lumias-research-labs.gitbook.io/lumias/"
+            target="_blank"
+          >
+            Whitepaper
+          </a>
+        </button>
         <h1>Litepaper</h1>
         <p>You can download litepaper directly</p>
+        <button className="docs-details-litepaper">
+          <a
+            href="https://lumias-research-labs.gitbook.io/lumias/lumias-app/features"
+            target="_blank"
+          >
+            Litepaper
+          </a>
+        </button>
       </div>
       {/* <div className="docs-legal">
         <h1>Legal</h1>

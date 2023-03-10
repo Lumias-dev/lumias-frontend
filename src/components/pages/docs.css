@@ -21,7 +21,7 @@
 }
 
 .docs-images {
-  margin-bottom: -800px;
+  margin-top: 300px;
 }
 
 .docs-details {
@@ -44,8 +44,33 @@
   line-height: 30px;
 }
 
-.docs-details p:nth-child(2) {
+.docs-details-whitepaper {
+  background: #2b2e37;
+  border-radius: 13px;
+  color: #5a5959;
+  font-size: 20px;
+  line-height: 50px;
+  padding: 0.5rem 14rem;
+  margin-top: 23px;
   margin-bottom: 150px;
+
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.docs-details-litepaper {
+  background: #2b2e37;
+  border-radius: 13px;
+  color: #5a5959;
+  font-size: 20px;
+  line-height: 50px;
+  padding: 0.5rem 14rem;
+  margin-top: 23px;
+
+  border: none;
+  outline: none;
+  cursor: pointer;
 }
 
 .docs-legal {

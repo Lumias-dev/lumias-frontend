@@ -8,10 +8,7 @@ const About = () => {
     <div className="about">
       <div className="about-header">
         <h1>Lumias Team</h1>
-        <p>
-          Be the first one to enjoy news, all the latest updates <br /> of our
-          platforms and not miss any deal
-        </p>
+        <p>We are the Lumias Team</p>
       </div>
       <div className="about-images">
         <img src={planetbluebig} height="800" width="800" className="blue" />
@@ -20,23 +17,25 @@ const About = () => {
       <div className="about-details">
         <h1>Mission</h1>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt quod
-          blanditiis explicabo aliquam exercitationem ipsam consequatur minima.
-          Architecto, a dolorem! Quisquam voluptate est, enim itaque soluta
-          exercitationem ut? Unde, debitis? Lorem ipsum dolor sit amet
-          consectetur adipisicing elit. Nostrum sit officia nesciunt doloremque
-          tempore asperiores illum illo, error optio nisi? Rem officia cum nisi
-          ea repellat iste illum deleniti dignissimos. Lorem ipsum dolor sit
-          amet consectetur adipisicing elit. Qui porro neque nemo laboriosam
-          aut, dolorem perferendis accusamus animi nobis earum fugiat ea odit,
-          repellat, facilis ex esse? Natus, obcaecati veritatis?
+          Our goal is to build a platform that allows developers to focus on
+          building their games, while offering the best possible experience for
+          their users. Our main focus is on quality, community, and user
+          satisfaction.
         </p>
         <h1>Why Lumias</h1>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat
-          libero quae sint fuga itaque consectetur iste, neque excepturi iure
-          distinctio natus atque architecto perspiciatis amet eaque expedita, et
-          numquam. Similique.
+          We want to help you create your brand and we have a passion for
+          excellence. That is our way of saying that we understand what new
+          projects need. We are always listening to our community, improving the
+          way we function and the suite of products we offer. This project is
+          our way of saying that we understand what new projects need versus
+          what we think they should want – meaning less friction and more ease
+          when it comes to your success. We work hard to ensure that our team
+          members and partners are in sync with each other. That's why we are
+          proud to say we have all the necessary skills. We listen, we observe
+          and we act. Our dedication to your project is not just about offering
+          ideas and advice, it's about building a partnership that lasts for
+          years, helping you grow into something more than what you were before.
         </p>
       </div>
       <div className="about-roadmap">
@@ -49,30 +48,11 @@ const About = () => {
       <div className="about-description">
         <h1>Description</h1>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum
-          dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-          incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-          commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-          velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-          occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-          mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur
-          adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-          magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-          ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-          irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-          fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-          sunt in culpa qui officia deserunt mollit anim id est laborum. Duis
-          aute irure dolor in reprehenderit in voluptate velit esse cillum
-          dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-          proident, sunt in culpa qui officia deserunt mollit anim id est
-          laborum.mollit anim id est laborum.mollit anim id est laborum.
+          We’re dedicated to keeping Lumais a great platform for you and your
+          friends who love games. That’s why we work hard to improve the
+          experience for gamers and developers, bringing new features to the
+          community and improving communication with developers. To read more
+          about our team, be sure to check out the Whitepaper!
         </p>
       </div>
     </div>

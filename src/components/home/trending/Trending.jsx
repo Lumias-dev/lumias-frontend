@@ -40,6 +40,14 @@ const Trend = () => {
           <p2>11.2% APY</p2>
         </div>
       </div>
+      <div className="trend-comingsoon">
+        <h1>Coming soon!</h1>
+        <p>
+          This section is currently in development & will be released in the
+          future. To stay up to date, please check out our Medium Posts and join
+          our Discord Server!
+        </p>
+      </div>
     </div>
   );
 };

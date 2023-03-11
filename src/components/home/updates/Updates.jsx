@@ -23,9 +23,9 @@ const Updates = () => {
           <p>New staking pools for deifi nerds</p>
           <p2>Version 2.0.2</p2>
         </div>
-        <div className="updates-bluemoon">
-          <img src={bluemoon} alt="blue planet" />
-        </div>
+      </div>
+      <div className="updates-bluemoon">
+        <img src={bluemoon} alt="blue planet" />
       </div>
     </div>
   );

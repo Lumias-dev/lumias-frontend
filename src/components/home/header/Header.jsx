@@ -25,14 +25,14 @@ const Header = () => {
           className="defi-planet"
         />
         <img src={galaxydust} className="galaxydust" />
-        <img
+        {/* <img
           src={galaxydust2}
-          className="galaxydust2"
           height="400"
           width="400"
-        />
+          className="galaxydust2"
+        /> */}
         <img src={aststring} className="aststring" />
-        <img src={defimoon} className="defimoon" />
+        <img src={defimoon} height="200" width="300" className="defimoon" />
         <img src={ast} className="ast" />
       </div>
     </div>

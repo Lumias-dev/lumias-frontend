@@ -45,8 +45,9 @@
 }
 
 .updates-container {
-  padding-top: 55px;
+  padding-top: 50px;
   display: flex;
+  gap: 80px;
 }
 
 .updates-container img {
@@ -69,10 +70,9 @@
 }
 
 .updates-bluemoon {
-  position: relative;
-  margin-bottom: -500px;
-  left: 150px;
-  bottom: 460px;
+  position: absolute;
+  top: 1660px;
+  left: 72%;
   z-index: -1;
 }
 

@@ -9,56 +9,54 @@
 .gamefi-planet {
   position: relative;
   bottom: 190px;
-  right: 60px;
-  z-index: 3;
+  right: 4%;
   width: 67%;
-  /* transform: translate(-5%, -20%); */
+  z-index: 3;
 }
 
 .defi-planet {
   position: relative;
   top: 97px;
-  right: 220px;
-  z-index: 3;
+  right: 16%;
   width: 67%;
-  /* transform: translate(-30%, 20%); */
+  z-index: 3;
 }
 
 .galaxydust {
   position: absolute;
-  z-index: 2;
   top: 1px;
   width: 100%;
+  z-index: 2;
 }
 
 .galaxydust2 {
   position: absolute;
-
-  z-index: 2;
+  top: 1px;
+  left: 10%;
   width: 100%;
+  z-index: 2;
 }
 
 .aststring {
   position: relative;
-  right: 1600px;
   bottom: 200px;
+  right: 113%;
   width: 50%;
   z-index: 3;
 }
 
 .defimoon {
-  position: absolute;
+  position: relative;
+  top: 100px;
+  right: 117%;
+  width: 100%;
   z-index: 2;
-  left: 890px;
-  top: 220px;
-  transform: rotate(7.6deg);
-  width: 13%;
 }
 
 .ast {
   position: relative;
   bottom: 390px;
-  right: 1330px;
-  z-index: 2;
+  right: 107%;
   width: 100%;
+  z-index: 2;
 }

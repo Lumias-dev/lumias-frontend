@@ -82,6 +82,11 @@
   min-width: 150px;
 }
 
+.footer a:hover {
+  color: rgb(243, 243, 243);
+  text-decoration: underline;
+}
+
 @media screen and (min-width: 1400px) {
   .footer {
     justify-content: space-between;
@@ -90,6 +95,9 @@
 
 @media screen and (max-width: 800px) {
   .footer-newsletter {
+    display: none;
+  }
+  .vr {
     display: none;
   }
 }

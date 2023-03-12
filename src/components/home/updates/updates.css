@@ -37,7 +37,7 @@
   border: none;
   outline: none;
   cursor: pointer;
-  min-width: 150px;
+  min-width: 13%;
 }
 
 .updates p {
@@ -78,4 +78,57 @@
 
 .updates-bluemoon img {
   width: 100%;
+}
+
+@media only screen and (min-width: 800px) and (max-width: 950px) {
+  .updates {
+    padding: 2rem 2rem;
+    margin: 0rem 2rem;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .updates {
+    padding: 1rem 1rem;
+    margin: 0rem 2rem;
+  }
+  .updates-header button {
+    display: none;
+  }
+  .updates-container {
+    display: grid;
+    font-size: 10px;
+    padding-top: 20px;
+  }
+  .updates-container img {
+    width: 100%;
+  }
+  .updates-container p {
+    font-size: 13px;
+  }
+  .updates-bluemoon {
+    top: 3200px;
+    left: 72%;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .updates-header h1 {
+    font-size: 63px;
+  }
+  .updates p {
+    font-size: 26px;
+  }
+  .updates-container p {
+    font-size: 26px;
+  }
+  .updates-container {
+    justify-content: space-between;
+  }
+  .updates-bluemoon {
+    position: absolute;
+    top: 1660px;
+    left: 77%;
+    z-index: -1;
+  }
 }

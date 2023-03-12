@@ -23,20 +23,35 @@
   font-size: 25px;
 }
 
-.article {
-  width: 100%;
-  height: 100%;
-
+.news-latest-container {
+  padding: 3rem 0rem;
   display: flex;
-  flex-direction: column;
+  gap: 80px;
+  cursor: pointer;
 }
 
-.article-images {
-  width: 100%;
-  height: 100%;
+.news-latest-container h1 {
+  font-size: 30px;
 }
 
-.article-images img {
+.news-latest-container h1:hover {
+  text-decoration: underline;
+  color: rgb(21, 44, 127);
+}
+
+.news-latest-container p {
+  font-size: 15px;
+}
+
+.news-latest-container img {
   width: 100%;
-  height: 100%;
+}
+
+@media screen and (max-width: 800px) {
+  .news {
+    padding: 0rem 1rem;
+  }
+  .news-latest-container {
+    display: grid;
+  }
 }

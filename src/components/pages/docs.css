@@ -52,9 +52,11 @@
   color: #5a5959;
   font-size: 20px;
   line-height: 50px;
-  padding: 0.5rem 14rem;
+  padding: 0.5rem 0rem;
   margin-top: 23px;
   margin-bottom: 150px;
+  width: 100%;
+  max-width: 400px;
 
   border: none;
   outline: none;
@@ -67,8 +69,10 @@
   color: #5a5959;
   font-size: 20px;
   line-height: 50px;
-  padding: 0.5rem 14rem;
+  padding: 0.5rem 0rem;
   margin-top: 23px;
+  width: 100%;
+  max-width: 400px;
 
   border: none;
   outline: none;
@@ -113,4 +117,10 @@
   font-size: 20px;
   font-weight: 300;
   line-height: 30px;
+}
+
+@media screen and (max-width: 800px) {
+  .docs {
+    padding: 0rem 0.5rem;
+  }
 }

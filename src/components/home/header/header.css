@@ -60,3 +60,24 @@
   width: 100%;
   z-index: 2;
 }
+
+@media screen and (max-width: 800px) {
+  .gamefi-planet {
+    width: 130%;
+    position: relative;
+    bottom: 350px;
+    right: 13%;
+  }
+  .defi-planet {
+    width: 130%;
+    position: relative;
+    bottom: 300px;
+    right: 120%;
+  }
+  .galaxydust,
+  .defimoon,
+  .aststring,
+  .ast {
+    display: none;
+  }
+}

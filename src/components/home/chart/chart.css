@@ -3,6 +3,8 @@
   justify-content: center;
   padding: 2rem;
   padding-bottom: 7rem;
+  position: relative;
+  z-index: 2;
 }
 
 .chart h1 {
@@ -18,9 +20,10 @@
 }
 
 .chart-container {
+  filter: blur(10px);
   color: rgb(200, 200, 200);
   font-size: 25px;
-  padding: 17px 0px;
+  padding: 120px 0px;
 }
 
 .chart-container p1 {
@@ -41,6 +44,56 @@
   padding: 6px 30px;
   width: 120px;
   height: 40px;
+}
+
+.chart-comingsoon {
+  background: -moz-linear-gradient(
+    90deg,
+    #9568cfa1 0%,
+    #5741a3d1 50%,
+    #23005ac7 100%
+  );
+  background: -webkit-linear-gradient(
+    90deg,
+    #9568cfa1 0%,
+    #5741a3d1 50%,
+    #23005ac7 100%
+  );
+  background: -o-linear-gradient(
+    90deg,
+    #9568cfa1 0%,
+    #5741a3d1 50%,
+    #23005ac7 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#23005A', endColorstr='#9568CF', GradientType=0 );
+  background: -ms-linear-gradient(
+    90deg,
+    #9568cfa1 0%,
+    #5741a3d1 50%,
+    #23005ac7 100%
+  );
+  background: linear-gradient(
+    90deg,
+    #9568cfa1 0%,
+    #5741a3d1 50%,
+    #23005ac7 100%
+  );
+  border: 3px solid #052244;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 3;
+  width: 100%;
+  padding: 20px;
+  max-width: 400px;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.chart-comingsoon h1 {
+  color: rgb(6, 13, 50);
+  font-size: 2em;
 }
 
 @media screen and (max-width: 800px) {

@@ -114,3 +114,15 @@
   font-weight: 300;
   line-height: 30px;
 }
+
+@media screen and (max-width: 800px) {
+  .about {
+    padding: 0rem 0.5rem;
+  }
+  .about-roadmap {
+    display: grid;
+  }
+  .about-roadmap-hr {
+    transform: rotate(90deg);
+  }
+}

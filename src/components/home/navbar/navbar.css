@@ -68,6 +68,9 @@
 }
 
 @media screen and (max-width: 800px) {
+  .navbar {
+    padding: 1.6rem 2rem;
+  }
   .navbar-container a {
     display: none;
   }

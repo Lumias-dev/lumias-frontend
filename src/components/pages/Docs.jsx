@@ -2,6 +2,7 @@ import React from "react";
 import "./docs.css";
 import planetredbig from "../../assets/planetredbig.svg";
 import planetbluebig from "../../assets/planetbluebig.svg";
+import { RiFile2Fill } from "react-icons/ri";
 
 const Docs = () => {
   return (
@@ -18,6 +19,7 @@ const Docs = () => {
         <h1>Whitepaper</h1>
         <p>You can download whitepaper directly</p>
         <button className="docs-details-whitepaper">
+          <RiFile2Fill className="file" />
           <a
             href="https://lumias-research-labs.gitbook.io/lumias/"
             target="_blank"
@@ -28,6 +30,7 @@ const Docs = () => {
         <h1>Litepaper</h1>
         <p>You can download litepaper directly</p>
         <button className="docs-details-litepaper">
+          <RiFile2Fill className="file" />
           <a
             href="https://lumias-research-labs.gitbook.io/lumias/lumias-app/features"
             target="_blank"
